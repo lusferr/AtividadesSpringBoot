@@ -28,7 +28,7 @@ public class ModelProduto {
 	
 	//CHAVE ESTRANGEIRA
 	@ManyToOne //N : 1
-	@JsonIgnoreProperties("categoria") //ignora algumas propriedades e nao permite repeticao
+	@JsonIgnoreProperties("produto") //ignora algumas propriedades e nao permite repeticao
 	private ModelCategoria categoria;
 	
 	@ManyToOne
